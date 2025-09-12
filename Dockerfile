@@ -11,3 +11,12 @@ RUN cmake .. -DCMAKE_INSTALL_PREFIX=${CONDA_DIR} && \
     ctest -V && \
     make install && \
     make clean
+
+COPY server /opt/child-grpc4bmi-server
+WORKDIR /opt/child-grpc4bmi-server/_build
+RUN cmake .. -DCMAKE_INSTALL_PREFIX=${CONDA_DIR} && \
+    make && \
+    make install && \
+    make clean
+
+WORKDIR /opt
