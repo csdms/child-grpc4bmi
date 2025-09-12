@@ -14,6 +14,8 @@ int main(int argc, char *argv[])
         printf("%s\n", model_name.c_str());
     }
 
+    run_bmi_server(model, argc, argv);
+
     delete model;
     return 0;
 }
