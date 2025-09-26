@@ -1,4 +1,5 @@
 [![Basic Model Interface](https://img.shields.io/badge/CSDMS-Basic%20Model%20Interface-green.svg)](https://bmi.readthedocs.io/)
+[![DOI](https://zenodo.org/badge/1055688154.svg)](https://doi.org/10.5281/zenodo.17204803)
 [![Test](https://github.com/csdms/child-grpc4bmi/actions/workflows/test.yml/badge.svg)](https://github.com/csdms/child-grpc4bmi/actions/workflows/test.yml)
 [![Docker Hub](https://github.com/csdms/child-grpc4bmi/actions/workflows/release.yml/badge.svg)](https://github.com/csdms/child-grpc4bmi/actions/workflows/release.yml)
 ![Docker Image Version](https://img.shields.io/docker/v/csdms/child-grpc4bmi)
